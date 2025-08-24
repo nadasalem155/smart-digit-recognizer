@@ -6,7 +6,7 @@ Handwritten digit recognition using multiple Machine Learning models on the MNIS
 
 ## 📂 Dataset
 
-- **Source:** [MNIST 60,000 Handwritten Number Images (Kaggle)](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)  
+- **Source:** [MNIST 60,000 Handwritten Number Images (Train ) (Kaggle)](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)  
 - **Used:** Training split (60,000 samples)  
 - **Image size:** 28 × 28 pixels (flattened into 784 features)  
 - **Target:** Digits 0–9  

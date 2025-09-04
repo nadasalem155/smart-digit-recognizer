@@ -1,0 +1,5 @@
+streamlit==1.33.1
+tensorflow==2.14.0
+pillow==10.1.0
+streamlit-drawable-canvas==0.11.1
+numpy==1.25.0

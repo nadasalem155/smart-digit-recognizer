@@ -3,7 +3,7 @@
 Digit recognition using multiple Machine Learning models on the MNIST dataset, with training, evaluation, and performance comparison.  
 Additionally, a Convolutional Neural Network (CNN) model 🖼️ was trained for improved accuracy, and a Streamlit-based web interface allows users to draw digits and get predictions in real-time.  
 
-🔗 **Try the Streamlit App here:** [Smart Digit Recognizer App](YOUR_STREAMLIT_LINK_HERE)
+🔗 **Try the Streamlit App here:** [Smart Digit Recognizer App](https://smart-digit-recognizer.streamlit.app/)
 
 ---
 

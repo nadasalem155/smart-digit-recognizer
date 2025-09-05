@@ -14,7 +14,7 @@ def load_model():
 
 model = load_model()
 
-# Custom CSS (keep only necessary styles)
+# Custom CSS
 st.markdown("""
     <style>
     .stApp {
@@ -70,7 +70,7 @@ col1, col2 = st.columns([1, 1])
 
 with col1:
     canvas_result = st_canvas(
-        fill_color="white",          # الرقم اللي بيرسمه المستخدم
+        fill_color="white",          # اللون اللي بيرسمه المستخدم
         stroke_width=15,
         stroke_color="white",        # الرقم أبيض على الخلفية السودا
         background_color="black",    # خلفية الكانافاس سودا
@@ -78,7 +78,7 @@ with col1:
         height=280,
         drawing_mode="freedraw",
         key="canvas",
-        display_toolbar=False        # يشيل أي خطوط أو أزرار إضافية
+        display_toolbar=True         # يظهر زر المسح
     )
 
 with col2:

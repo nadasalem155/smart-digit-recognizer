@@ -45,6 +45,11 @@ st.markdown("""
         background-color: #fff;
         padding: 10px;
         margin-bottom: 20px;
+        display: inline-block; /* Ensure container wraps tightly around canvas */
+    }
+    /* Remove extra black box around canvas */
+    .stCanvas {
+        background-color: transparent !important; /* Ensure no extra background */
     }
     /* Predict button styling */
     .stButton>button {
@@ -60,9 +65,9 @@ st.markdown("""
     .stButton>button:hover {
         background-color: #3700b3;
     }
-    /* Prediction output styling */
+    /* Prediction output styling with gradient background */
     .prediction-box {
-        background-color: #ffffff;
+        background: linear-gradient(135deg, #bbdefb, #9575cd); /* Soft blue to purple gradient */
         border-radius: 15px;
         padding: 30px;
         text-align: center;

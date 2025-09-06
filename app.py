@@ -70,15 +70,15 @@ col1, col2 = st.columns([1, 1])
 
 with col1:
     canvas_result = st_canvas(
-        fill_color="white",          # اللون اللي بيرسمه المستخدم
+        fill_color="white",          
         stroke_width=15,
-        stroke_color="white",        # الرقم أبيض على الخلفية السودا
-        background_color="black",    # خلفية الكانافاس سودا
+        stroke_color="white",        
+        background_color="black",    
         width=280,
         height=280,
         drawing_mode="freedraw",
         key="canvas",
-        display_toolbar=True         # يظهر زر المسح
+        display_toolbar=True          
     )
 
 with col2:
